@@ -1,5 +1,7 @@
+import './shared/config';
 import './shared/modules';
-import Mongez from 'mongez';
 import 'shared/shared-provider';
+
+import Mongez from 'mongez';
 
 Mongez();

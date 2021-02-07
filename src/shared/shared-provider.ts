@@ -1,4 +1,3 @@
-import './config';
-import './/locales/en';
 import './locales/ar';
+import './/locales/en';
 import './style-settings';
