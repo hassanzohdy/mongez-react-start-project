@@ -1,5 +1,4 @@
-import { Module } from "mongez/router";
-import { setModules } from "mongez/router";
+import { setModules, Module } from "mongez/router";
 
 setModules([
   {

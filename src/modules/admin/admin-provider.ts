@@ -25,7 +25,7 @@ endpointEvents.onSuccess((response: AxiosResponse) => {
 endpointEvents.onError((response: AxiosResponse) => {
     if (!response) return;
     // unauthenticated request
-    if ([401, 422].includes(response.status)) {
+    if ([401, 422].includes(response.status) && user.isLoggedIn()) {
         user.logout();
 
         navigateTo('/login');
