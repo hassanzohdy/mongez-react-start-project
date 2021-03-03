@@ -1,6 +1,6 @@
 import UserForm from './user-form';
 import { EmailFormatter } from 'mongez/table';
-import { tableActions, crudPage, CrudOptions } from 'mongez/admin';
+import { tableActions, wizardTable, CrudOptions } from 'mongez/table';
 import usersService from 'modules/admin/users/services/users-service';
 
 const options: CrudOptions = {
@@ -35,6 +35,6 @@ const options: CrudOptions = {
     }
 };
 
-const Users = crudPage(options);
+const Users = wizardTable(options);
 
 export default Users;

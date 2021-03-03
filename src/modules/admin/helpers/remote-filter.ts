@@ -1,5 +1,5 @@
 import { RestfulEndpoint } from 'mongez/http';
-import { FilterOption } from 'mongez/admin';
+import { FilterOption } from 'mongez/table';
 
 const remoteSearch = (service: RestfulEndpoint) => {
 	return (value, type) => {

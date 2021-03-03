@@ -1,6 +1,6 @@
 import form from './Form';
 import ReplyButton from './ReplyButton';
-import { crudPage, CrudOptions } from 'mongez/admin';
+import { wizardTable, CrudOptions } from 'mongez/table';
 import service from 'modules/admin/contactUs/services/service';
 import { BooleanFormatter, TableDeleteButton, ButtonsFormatter } from 'mongez/table';
 
@@ -59,6 +59,6 @@ const options: CrudOptions = {
     }
 };
 
-const campaigns = crudPage(options);
+const campaigns = wizardTable(options);
 
 export default campaigns;

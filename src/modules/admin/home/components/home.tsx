@@ -1,4 +1,3 @@
-import { Globals } from 'mongez';
 import React from 'react';
 import { Helmet } from 'mongez/components';
 

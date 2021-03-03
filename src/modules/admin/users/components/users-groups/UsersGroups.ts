@@ -1,5 +1,5 @@
 import UserGroupForm from './user-group-form';
-import {tableActions, crudPage, CrudOptions} from 'mongez/admin';
+import {tableActions, wizardTable, CrudOptions} from 'mongez/table';
 import usersGroupsService from 'modules/admin/users/services/users-groups-service';
 
 const options: CrudOptions = {
@@ -25,6 +25,6 @@ const options: CrudOptions = {
     }
 };
 
-const UsersGroups = crudPage(options);
+const UsersGroups = wizardTable(options);
 
 export default UsersGroups;

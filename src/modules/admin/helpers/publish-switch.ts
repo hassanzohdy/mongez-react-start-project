@@ -1,6 +1,5 @@
-import { TableColumn } from 'mongez/admin';
 import { RestfulEndpoint } from "mongez/http";
-import { SwitchFormatter } from "mongez/table";
+import { TableColumn, SwitchFormatter } from "mongez/table";
 
 export default function publishSwitch(service: RestfulEndpoint, key: string = 'published'): TableColumn {
     return {

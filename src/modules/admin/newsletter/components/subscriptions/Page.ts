@@ -1,5 +1,5 @@
 import service from 'modules/admin/newsletter/services/subscriptions-service';
-import {tableActions, crudPage, CrudOptions} from 'mongez/admin';
+import {tableActions, wizardTable, CrudOptions} from 'mongez/table';
 
 const options: CrudOptions = {
     service,
@@ -20,6 +20,6 @@ const options: CrudOptions = {
     }
 };
 
-const campaigns = crudPage(options);
+const campaigns = wizardTable(options);
 
 export default campaigns;

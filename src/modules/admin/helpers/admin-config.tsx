@@ -7,12 +7,10 @@ const settings: ConfigList = {
         baseUrl: BASE_URL + '/admin',
     },
     locales: {
-        en: {
-            direction: 'ltr',
-        },
         ar: {
             direction: 'rtl',
-        },
+            name: 'العربية'
+        }
     },
     dashboard: {
         header: {

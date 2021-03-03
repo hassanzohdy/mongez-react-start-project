@@ -1,8 +1,7 @@
 import user from 'shared/user';
 import form from './Form';
-import { LinkFormatter } from 'mongez/table';
 import service from 'modules/admin/pages/services/service';
-import { crudPage, CrudOptions, tableActions } from 'mongez/admin';
+import { LinkFormatter, wizardTable, CrudOptions, tableActions } from 'mongez/table';
 
 const options: CrudOptions = {
     service,
@@ -43,6 +42,6 @@ const options: CrudOptions = {
     }
 };
 
-const pages = crudPage(options);
+const pages = wizardTable(options);
 
 export default pages;
