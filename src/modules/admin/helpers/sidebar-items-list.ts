@@ -4,14 +4,7 @@ import {
 import {
   sidebarItems
 } from 'mongez/admin';
-import Album from '@material-ui/icons/Album';
-import Videocam from '@material-ui/icons/Videocam';
-import LockOpen from '@material-ui/icons/LockOpen';
-import MessageIcon from '@material-ui/icons/Message';
 import ExplicitIcon from '@material-ui/icons/Explicit';
-import SpeakerGroup from '@material-ui/icons/SpeakerGroup';
-import MonetizationOn from '@material-ui/icons/MonetizationOn';
-import RecordVoiceOver from '@material-ui/icons/RecordVoiceOver';
 import {
   DashboardRounded,
   VerifiedUser,
@@ -26,59 +19,6 @@ sidebarItems.onUpdate(() => ([{
   route: '/',
   icon: DashboardRounded,
   // role: 'homeReport',
-},
-{
-  text: trans('talents'),
-  icon: Album,
-  items: [{
-    text: trans('talents'),
-    route: '/talents',
-    icon: Album,
-    role: 'talents.list',
-  },
-  {
-    text: trans('talentsActivities'),
-    route: '/talents/activities',
-    icon: Album,
-    role: 'talentsActivities.list',
-  },
-  ]
-},
-{
-  text: trans('crew'),
-  route: '/crew',
-  icon: RecordVoiceOver,
-  role: 'crew.list',
-},
-{
-  text: trans('packages'),
-  route: '/packages',
-  icon: MonetizationOn,
-  role: 'packages.list',
-},
-{
-  text: trans('characterAttributesGroups'),
-  route: '/characterAttributes',
-  icon: SpeakerGroup,
-  role: 'characterAttributesGroups.list',
-},
-{
-  text: trans('castingCalls'),
-  route: '/casting-calls',
-  icon: Videocam,
-  role: 'casting-calls.list',
-},
-{
-  text: trans('unlocks'),
-  route: '/unlocks',
-  icon: LockOpen,
-  role: 'unlocks.list',
-},
-{
-  text: trans('messages'),
-  route: '/messages',
-  icon: MessageIcon,
-  role: 'messages.list',
 },
 {
   text: trans('pages'),
