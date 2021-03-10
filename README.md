@@ -8,7 +8,9 @@ to build a powerful react js project using [Mongez React](https://github.com/has
 
 Clone the project into your machine and run `yarn install` or `npm install`.
 
-Rename `.env.example` to `.env` and update the file based on your needs.
+Update your env file and set your locale codes list, also add the default locale code and direction.
+
+If you're working with APIs, set the base url and the API Key if exists.
 
 # Getting Started
 
