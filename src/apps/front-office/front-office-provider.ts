@@ -1,0 +1,1 @@
+import './helpers/front-office-config';

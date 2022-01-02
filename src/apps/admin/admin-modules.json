@@ -1,0 +1,38 @@
+{
+    "path": "/admin",
+    "name": "admin",
+    "modules": [
+        {
+            "entry": [
+                "/users",
+                "/login"
+            ],
+            "module": "users"
+        },
+        {
+            "entry": [
+                "/settings"
+            ],
+            "module": "settings"
+        },
+        {
+            "entry": [
+                "/pages"
+            ],
+            "module": "pages"
+        },
+        {
+            "entry": [
+                "/contact-us"
+            ],
+            "module": "contactUs"
+        },
+        {
+            "entry": [
+                "/",
+                "/access-denied"
+            ],
+            "module": "home"
+        }
+    ]
+}
